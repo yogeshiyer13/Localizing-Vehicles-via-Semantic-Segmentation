@@ -43,6 +43,7 @@ Our results looked like this!
 ![Results](Result.JPG)
 
 ### Trained model
+The trained model can be seen from here!
 [google_driver](https://drive.google.com/open?id=1hlSl1EaDKWA00hvd6Ar0xDZ9uOZ7HKYu)
 [BaiduNetdisk](https://pan.baidu.com/s/1vITyeBR5kxaGcOF0BHGkJA)
 
