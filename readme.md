@@ -1,6 +1,10 @@
 ### Introduction
 
-This is a project in which we just move the [DSRG](https://github.com/speedinghzl/DSRG) to tensorflow. The DSRG is referring to the approach for weakly-supervised semantic segmentation in the paper ["Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing"](https://github.com/speedinghzl/DSRG). And here, the tensorflow is used to implement the approach with the help of the [DSRG](https://github.com/speedinghzl/DSRG) project.
+This is a project in which we use the [DSRG](https://github.com/speedinghzl/DSRG) and implemet it using tensorflow. The DSRG is referring to the approach for weakly-supervised semantic segmentation in the paper ["Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing"](https://github.com/speedinghzl/DSRG). 
+
+### About 
+
+Semantic segmentation, is a novel image annotating approach, coming towards “Classification” and “Object Detection”. As we know, classification is the process of determining the type of object to which the input image belongs to, also called as “image-level label”; and “Object Detection” a process providing information about the location and size of the image. Semantic Segmentation deals with labelling individual pixels of the images as an instance of object classes.
 
 ### Preparation
 
