@@ -1,6 +1,6 @@
 ### Introduction
 
-This is a project which just move the [DSRG](https://github.com/speedinghzl/DSRG) to tensorflow. The DSRG is referring to the approach for weakly-supervised semantic segmentation in the paper ["Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing"](https://github.com/speedinghzl/DSRG). And here, I just use the tensorflow to implement the approach with the help of the [DSRG](https://github.com/speedinghzl/DSRG) project.
+This is a project in which we just move the [DSRG](https://github.com/speedinghzl/DSRG) to tensorflow. The DSRG is referring to the approach for weakly-supervised semantic segmentation in the paper ["Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing"](https://github.com/speedinghzl/DSRG). And here, the tensorflow is used to implement the approach with the help of the [DSRG](https://github.com/speedinghzl/DSRG) project.
 
 ### Preparation
 
@@ -25,11 +25,13 @@ then, you just input the following sentence to train it.
 > python DSRG.py <gpu_id>
 ### Methodology 
 
-
+![DSRG Methodology](DSRG.jpg)    
 
 ### Result
-If you scale the input image with factors 0.5, 0.75 and 1.0, then use the max to merge the result. 
-The final result is 0.567 in the validatation set while it is 0.574(without pretrain step) in the paper.
+
+Our results looked like this!
+
+![Results](Result.jpg)
 
 ### Trained model
 [google_driver](https://drive.google.com/open?id=1hlSl1EaDKWA00hvd6Ar0xDZ9uOZ7HKYu)
