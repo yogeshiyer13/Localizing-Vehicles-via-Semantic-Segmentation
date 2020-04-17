@@ -2,24 +2,6 @@
 
 This is a project which just move the [DSRG](https://github.com/speedinghzl/DSRG) to tensorflow. The DSRG is referring to the approach for weakly-supervised semantic segmentation in the paper ["Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing"](https://github.com/speedinghzl/DSRG). And here, I just use the tensorflow to implement the approach with the help of the [DSRG](https://github.com/speedinghzl/DSRG) project.
 
-### Citing this repository
-
-If you find this code useful in your research, please consider citing them:
-
-> @inproceedings{kolesnikov2016seed,  
->
-> ​    title={Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing},
->
-> ​    author={Huang, Zilong and Wang, Xinggang and Wang, Jiasi and Liu, Wenyu and Wang, Jingdong},
->
-> ​    booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
->
-> ​    pages={7014--7023},
->
-> ​    year={2018}
->
-> }
-
 ### Preparation
 
 for using this code, you have to do something else:
@@ -36,13 +18,14 @@ For using the densecrf in python, we turn to the project [pydensecrf](https://gi
 2. for localization_cues-cal.pickle, please referring to [DSRG](https://github.com/speedinghzl/DSRG) or [BaiduNetdisk](https://pan.baidu.com/s/14a94qw4nBulqqKHLMbQGUg)(which fetching code is qgig). And download it and extract it in the data/.
 3. for init.model, you can download it from [googledriver](https://drive.google.com/file/d/1kxDguwRaIDm5WS6JTNzi8GO-HqKJqKnm/view) or [BaiduNetdisk](https://pan.baidu.com/s/1Q1wmAX7Do9jvvLMt3_8tFw). Just download it and put it in model/.
 
-For more details, you can referring to the correspond code files or leave a message in the issue.
-
 ### Training
 
 then, you just input the following sentence to train it.
 
 > python DSRG.py <gpu_id>
+### Methodology 
+
+
 
 ### Result
 If you scale the input image with factors 0.5, 0.75 and 1.0, then use the max to merge the result. 
