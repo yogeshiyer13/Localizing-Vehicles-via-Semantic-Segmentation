@@ -25,17 +25,15 @@ then, you just input the following sentence to train it.
 > python DSRG.py <gpu_id>
 ### Methodology 
 
-![DSRG Methodology](DSRG.jpg)    
+![DSRG Methodology](DSRG.JPG)    
 
 ### Result
 
 Our results looked like this!
 
-![Results](Result.jpg)
+![Results](Result.JPG)
 
 ### Trained model
 [google_driver](https://drive.google.com/open?id=1hlSl1EaDKWA00hvd6Ar0xDZ9uOZ7HKYu)
 [BaiduNetdisk](https://pan.baidu.com/s/1vITyeBR5kxaGcOF0BHGkJA)
 
-### Evaluation
-I just release a [project](https://github.com/xtudbxk/semantic-segmentation-metrics) to provide the code for evaluation.
