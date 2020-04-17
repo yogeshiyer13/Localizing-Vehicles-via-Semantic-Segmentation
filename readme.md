@@ -23,6 +23,9 @@ For using the densecrf in python, we turn to the project [pydensecrf](https://gi
 then, you just input the following sentence to train it.
 
 > python DSRG.py <gpu_id>
+### Methodology 
+
+
 
 ### Result
 If you scale the input image with factors 0.5, 0.75 and 1.0, then use the max to merge the result. 
